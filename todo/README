@@ -1,0 +1,16 @@
+## 生成文件
+
+go build -o todo
+
+
+## 使用命令
+
+./todo list
+
+./todo add "test todo"
+
+./todo -t yaml list
+
+./todo -t yaml add "test todo2"
+
+./todo done 1
